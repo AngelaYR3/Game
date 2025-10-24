@@ -37,11 +37,12 @@ public class Main {
         four.getLevel(3).reachGoal(); //lvl 3 reached
         four.getLevel(3).setPoints(500);
         System.out.println(four.getScore()); //print 0
+
+        //test case b
+        Game five = new Game();
+        System.out.println(five.playManyTimes(4));
+        
     }
 
-//test case b
-//
-//    Game five = new Game();
-//    System.out.println(five.playManyTimes(4));
 
 }
